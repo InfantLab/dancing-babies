@@ -7,10 +7,10 @@
             "frameList": [
                 {
                     "name": "video1",
-                    "requiredDuration": 30,
+                    "requiredDuration": 14,
                     "doRecording": true,
                     "parentTextBlock": {
-                        "text": "In this video there is no sound, please encourage your child to drum without any music, using the prompts written above. Remember not to show them how to drum!"
+                        "text": "Adults, your child will now listen to a 14 second-long song, please do not move along to the music or speak"
                     },
                     "video": {
                         "source": [
@@ -24,10 +24,10 @@
                 },
                 {
                     "name": "attngetter1",
-                    "requiredDuration": 5,
+                    "requiredDuration": 3,
                     "doRecording": false,
                     "parentTextBlock": {
-                        "text": "Video 2 out of 6 coming up shortly."
+                        "text": "The second song clip will start shortly"
                     },
                     "video": {
                         "source": [
@@ -41,10 +41,10 @@
                 },
                 {
                     "name": "video2",
-                    "requiredDuration": 20,
+                    "requiredDuration": 14,
                     "doRecording": true,
                     "parentTextBlock": {
-                        "text": "Adults, in this video please say 'Can you drum along?'"
+                        "text": "Adults, here's another song for your child to listen to. Again, please refrain from moving or speaking."
                     },
                     "video": {
                         "source": [
@@ -58,10 +58,10 @@
                 },
                 {
                     "name": "attngetter2",
-                    "requiredDuration": 5,
+                    "requiredDuration": 3,
                     "doRecording": false,
                     "parentTextBlock": {
-                        "text": "Video 3 out of 6 coming up shortly."
+                        "text": "The third song is coming up soon"
                     },
                     "video": {
                         "source": [
@@ -75,10 +75,10 @@
                 },
                 {
                     "name": "video3",
-                    "requiredDuration": 20,
+                    "requiredDuration": 14,
                     "doRecording": true,
                     "parentTextBlock": {
-                        "text": "Adults, in this video please say 'Can you drum along?'"
+                        "text": "Adults, here's another song for your child to listen to. Again, please refrain from moving or speaking."
                     },
                     "video": {
                         "source": [
@@ -92,10 +92,10 @@
                 },
                 {
                     "name": "attngetter3",
-                    "requiredDuration": 5,
+                    "requiredDuration": 3,
                     "doRecording": false,
                     "parentTextBlock": {
-                        "text": "Video 4 out of 6 coming up shortly."
+                        "text": "Adults, one more song for your child to listen to before they are repeated"
                     },
                     "video": {
                         "source": [
@@ -109,10 +109,10 @@
                 },
                 {
                     "name": "video4",
-                    "requiredDuration": 20,
+                    "requiredDuration": 14,
                     "doRecording": true,
                     "parentTextBlock": {
-                        "text": "Adults, in this video please say 'Can you drum along?'"
+                        "text": "Adults, please refrain from moving or speaking."
                     },
                     "video": {
                         "source": [
@@ -126,10 +126,10 @@
                 },
                 {
                     "name": "attngetter4",
-                    "requiredDuration": 5,
+                    "requiredDuration": 3,
                     "doRecording": false,
                     "parentTextBlock": {
-                        "text": "Video 5 out of 6 coming up shortly."
+                        "text": "Now we're going to repeat the songs."
                     },
                     "video": {
                         "source": [
@@ -143,10 +143,10 @@
                 },
                 {
                     "name": "video5",
-                    "requiredDuration": 20,
+                    "requiredDuration": 14,
                     "doRecording": true,
                     "parentTextBlock": {
-                        "text": "Adults, in this video please say 'Can you drum along?'"
+                        "text": "Adults, here's another song for your child to listen to. Again, please refrain from moving or speaking."
                     },
                     "video": {
                         "source": [
@@ -160,10 +160,10 @@
                 },
                 {
                     "name": "attngetter5",
-                    "requiredDuration": 5,
+                    "requiredDuration": 3,
                     "doRecording": false,
                     "parentTextBlock": {
-                        "text": "Video 6 out of 6 coming up shortly."
+                        "text": "Three more songs to go!"
                     },
                     "video": {
                         "source": [
@@ -177,15 +177,15 @@
                 },
                 {
                     "name": "video6",
-                    "requiredDuration": 30,
+                    "requiredDuration": 14,
                     "doRecording": true,
                     "parentTextBlock": {
-                        "text": "In this video there is no sound, please encourage your child to drum without any music, using the prompts written above. Remember not to show them how to drum!"
+                        "text": "Adults, here's another song for your child to listen to. Again, please refrain from moving or speaking."
                     },
                     "video": {
                         "source": [
                             {
-                                "src": "VIDEO1",
+                                "src": "VIDEO6",
                                 "type": "video/mp4"
                             }
                         ],
@@ -194,15 +194,66 @@
                 },
                 {
                     "name": "attngetter6",
-                    "requiredDuration": 5,
+                    "requiredDuration": 3,
                     "doRecording": false,
                     "parentTextBlock": {
-                        "text": "This part of the study is over. Well done."
+                        "text": "Two more songs to go."
                     },
                     "video": {
                         "source": [
                             {
                                 "src": "ATTN1",
+                                "type": "video/mp4"
+                            }
+                        ],
+                        "position": "fill"
+                    }
+                },
+                {
+                    "name": "video7",
+                    "requiredDuration": 14,
+                    "doRecording": true,
+                    "parentTextBlock": {
+                        "text": "Adults, your child will now listen to a 14 second-long song, please do not move along to the music or speak"
+                    },
+                    "video": {
+                        "source": [
+                            {
+                                "src": "VIDEO7",
+                                "type": "video/mp4"
+                            }
+                        ],
+                        "position": "fill"
+                    }
+                },
+                {
+                    "name": "attngetter7",
+                    "requiredDuration": 3,
+                    "doRecording": false,
+                    "parentTextBlock": {
+                        "text": "Final song coming up now!"
+                    },
+                    "video": {
+                        "source": [
+                            {
+                                "src": "ATTN2",
+                                "type": "video/mp4"
+                            }
+                        ],
+                        "position": "fill"
+                    }
+                },
+                {
+                    "name": "video8",
+                    "requiredDuration": 14,
+                    "doRecording": true,
+                    "parentTextBlock": {
+                        "text": "Adults, this is the last song, please keep from moving along or speaking."
+                    },
+                    "video": {
+                        "source": [
+                            {
+                                "src": "VIDEO8",
                                 "type": "video/mp4"
                             }
                         ],
@@ -220,11 +271,14 @@
             },
             "parameterSets": [
                 {
-                    "VIDEO1": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/SpontaneousMotorTempo.540p.mp4",
-                    "VIDEO2": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/400ms.540p.mp4",
-                    "VIDEO3": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/600ms.540p.mp4",
-                    "VIDEO4": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/500ms.540p.mp4",
-                    "VIDEO5": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/700ms.540p.mp4",
+                    "VIDEO1": "https://raw.github.com/InfantLab/dancing-babies/master/lookit/stimuli/D1.ANIMATED.mp4",
+                    "VIDEO2": "https://raw.github.com/InfantLab/dancing-babies/master/lookit/stimuli/D2.ANIMATED.mp4",
+                    "VIDEO3": "https://raw.github.com/InfantLab/dancing-babies/master/lookit/stimuli/L1.ANIMATED.mp4",
+                    "VIDEO4": "https://raw.github.com/InfantLab/dancing-babies/master/lookit/stimuli/L2.ANIMATED.mp4",
+                    "VIDEO5": "https://raw.github.com/InfantLab/dancing-babies/master/lookit/stimuli/D1.STATIC.mp4",
+                    "VIDEO6": "https://raw.github.com/InfantLab/dancing-babies/master/lookit/stimuli/D2.STATIC.mp4",
+                    "VIDEO7": "https://raw.github.com/InfantLab/dancing-babies/master/lookit/stimuli/L1.STATIC.mp4",
+                    "VIDEO8": "https://raw.github.com/InfantLab/dancing-babies/master/lookit/stimuli/L2.STATIC.mp4",
                     "ATTN1": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter1.mp4",
                     "ATTN2": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter2.mp4",
                     "ATTN3": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter3.mp4",
@@ -232,11 +286,14 @@
                     "ATTN5": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter5.mp4"
                 },
                 {
-                    "VIDEO1": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/SpontaneousMotorTempo.540p.mp4",
-                    "VIDEO2": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/700ms.540p.mp4",
-                    "VIDEO3": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/500ms.540p.mp4",
-                    "VIDEO4": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/600ms.540p.mp4",
-                    "VIDEO5": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/400ms.540p.mp4",
+                    "VIDEO1": "https://raw.github.com/InfantLab/dancing-babies/master/lookit/stimuli/D1.STATIC.mp4",
+                    "VIDEO2": "https://raw.github.com/InfantLab/dancing-babies/master/lookit/stimuli/D2.STATIC.mp4",
+                    "VIDEO3": "https://raw.github.com/InfantLab/dancing-babies/master/lookit/stimuli/L1.STATIC.mp4",
+                    "VIDEO4": "https://raw.github.com/InfantLab/dancing-babies/master/lookit/stimuli/L2.STATIC.mp4",
+                    "VIDEO5": "https://raw.github.com/InfantLab/dancing-babies/master/lookit/stimuli/D1.ANIMATED.mp4",
+                    "VIDEO6": "https://raw.github.com/InfantLab/dancing-babies/master/lookit/stimuli/D2.ANIMATED.mp4",
+                    "VIDEO7": "https://raw.github.com/InfantLab/dancing-babies/master/lookit/stimuli/L1.ANIMATED.mp4",
+                    "VIDEO8": "https://raw.github.com/InfantLab/dancing-babies/master/lookit/stimuli/L2.ANIMATED.mp4",
                     "ATTN1": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter5.mp4",
                     "ATTN2": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter1.mp4",
                     "ATTN3": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter2.mp4",
@@ -247,20 +304,20 @@
         },
         "video-config": {
             "kind": "exp-video-config",
-            "troubleshootingIntro": "If you're having any trouble getting your webcam set up, please email Dr Caspar Addyman <c.addyman@gold.ac.uk> with a brief description of the problem."
+            "troubleshootingIntro": "If you're having any trouble getting your webcam set up, please email Victoria Lazzari <vlazz001@gold.ac.uk> with a brief description of the problem."
         },
         "video-consent": {
             "kind": "exp-lookit-video-consent",
             "template": "consent_005",
-            "PIName": "Dr Sinead Rocha and Dr Caspar Addyman",
-            "institution": "University of Cambridge and Goldsmiths, University of London, UK",
-            "PIContact": "Dr Sinead Rocha at sineadrocha@gmail.com or Dr Caspar Addyman at c.addyman@gold.ac.uk",
-            "purpose": "Whilst tapping along to our favourite song may seem automatic to us as adults, it is actually a pretty complex behaviour. We know that young children are brilliant at ‘sensing’ the rhythm of music but that they take some time to be able to coordinate their movement to it. We would like to know if the developing skill of toddlers to move in time with the beat of music is related to their general ability to monitor and adapt to the environment around them.",
-            "procedures": "We ask that your child is sat in a chair or highchair, within easy reach of a table. Your child will see some videos of a hand drumming (some fast, some slow) and will be asked to drum along on the table in front of them. We will then ask you to complete an online survey, which includes some fun interactive games to try with your little one. There are no anticipated risks associated with participating.",
+            "PIName": "Victoria Lazzari, Dr Caspar Addyman and Prof. Lauren Stewart",
+            "institution": "Goldsmiths, University of London, UK",
+            "PIContact": "Victoria Lazzari at vlazz001@gold.ac.uk or Dr Caspar Addyman at c.addyman@gold.ac.uk or Prof Lauren Stewart at l.stewart@gold.ac.uk",
+            "purpose": "Whilst moving to the beat of our favourite song may seem automatic to us as adults, it is actually a pretty complex behaviour. We are interested to see how infants move and express themselves depending on the type of song they are being exposed to.",
+            "procedures": "We ask that your child is sat in a highchair. Your child will hear some songs and we will record if and how they move to them. We will then ask you to complete an online survey. There are no anticipated risks associated with participating.",
             "datause": "We are interested in your child's ability to match the rhythms that they hear. We will use specialist software to measure the timing of your child’s movements. We will look at these data in light of your survey responses.",
             "payment": "There is no compensation for taking part in this study. We cannot promise any benefits to you or others from your taking part in this research. You will not receive results of the procedures and tasks your child performs as part of this research. Our conclusions are about how groups of children respond, and therefore individual results are not meaningful. However, possible benefits include learning more about research with children.",
-            "Publication of results": "The results of the research may be presented at scientific meetings or published in scientific journals. Raw data (for instance, the tempo of children's table hits) may be published when it cannot identify children. We never publish children's birthdates or names, and we never publish your demographic data in conjunction with your child's video.",
-            "research_rights_statement": "This research has been reviewed and approved by the ethics committee at Goldmiths, University of London. You should also know that you may contact any of the following people if you are unhappy about the way your data or your participation in this study are being treated: 1)  Goldsmiths Data Protection Officer – dp@gold.ac.uk  (concerning your rights to control personal data). 2) Chair, Goldsmiths Research Ethics and Integrity Sub-Committee - via reisc@gold.ac.uk, REISC Secretary (for any other element of the study). 3) You also have the right to lodge a complaint with the Information Commissioner’s Office at https://ico.org.uk/make-a-complaint/",
+            "Publication of results": "The results of the research may be presented at scientific meetings or published in scientific journals. Raw data (for instance, the number of times your child made a particular movement) may be published when it cannot identify children. We never publish children's birthdates or names, and we never publish your demographic data in conjunction with your child's video.",
+            "research_rights_statement": "This research has been reviewed and approved by the ethics committee at Goldsmiths, University of London. You should also know that you may contact any of the following people if you are unhappy about the way your data or your participation in this study are being treated: 1)  Goldsmiths Data Protection Officer – dp@gold.ac.uk  (concerning your rights to control personal data). 2) Chair, Goldsmiths Research Ethics and Integrity Sub-Committee - via reisc@gold.ac.uk, REISC Secretary (for any other element of the study). 3) You also have the right to lodge a complaint with the Information Commissioner’s Office at https://ico.org.uk/make-a-complaint/",
             "include_databrary": true,
             "gdpr": true,
             "gdpr_personal_data": "your email address, child's date of birth",
@@ -276,7 +333,7 @@
                             "text": "The most important role you have during the study is to make sure your child stays in front of the computer."
                         },
                         {
-                            "text": "You can encourage them to keep drumming, but please do not show them what to do!"
+                            "text": "You can encourage them to stay engaged but please do not demonstrate any dancing"
                         }
                     ]
                 },
@@ -297,6 +354,35 @@
             ],
             "nextButtonText": "I'm ready to get my child in position"
         },
+        "intro-video": {
+    "kind": "exp-lookit-instruction-video",
+    "instructionsVideo": [
+        {
+            "src": "https://raw.githubusercontent.com/InfantLab/dancing-babies/master/lookit/stimuli/IMM_Intro.mp4",
+            "type": "video/mp4"
+        }
+    ],
+    "introText": "Welcome to the study! Please watch this video to get started. \n(Or you can read the summary to the right if you prefer.)",
+    "transcriptTitle": "Video summary",
+    "transcriptBlocks": [
+        {
+            "title": "Background information about the study",
+            "listblocks": [
+                {
+                    "text": "Your baby does not need to be with you at this point in the study. We will let you know when it is time to get your baby."
+                },
+                {
+                    "text": "Hi and thank for taking part in this study. We’re interested in how infants move to different kinds of music and so in this study, we’re asking that your little one is sat in their highchair with their full body, from their head to their toes visible on camera. They will hear four songs, each 14 seconds long and the sequence will then repeat once more, so all in all it’s two minutes of music listening. It’s really important that your baby isn’t influenced by your movement, so please resist any urges to sway or dance in any way! If you feel your infant needs a break you can pause by pressing the spacebar. Thanks so much and on with the study!"
+                }
+            ]
+
+        }
+    ],
+    "warningText": "Please watch the video or read the summary before proceeding.",
+    "nextButtonText": "I'm ready to make sure my webcam is connected!",
+    "title": "Study instructions",
+    "showPreviousButton": false
+},
         "second-instructions": {
             "kind": "exp-lookit-instructions",
             "blocks": [
@@ -319,19 +405,19 @@
                 },
                 {
                     "image": {
-                        "src": "https://raw.github.com/InfantLab/little-drummers/master/lookit/images/kid.drumming.png"
+                        "src": "https://raw.githubusercontent.com/InfantLab/dancing-babies/master/lookit/images/baby.hichair.jpg"
                     }
                 },
                 {
                     "listblocks": [
                         {
-                            "text": "Please make sure we have a good view of your little one during the study. The best position for your child would be in a highchair or similar, with you sitting next to them. Sitting on your lap is not ideal, as we adults tend to make tiny movements when listening to a beat, even if we are trying to sit still, and we don’t want these to influence your child’s movement. "
+                            "text": "Please make sure we have a good full body view of your little one during the study. The best position for your child would be in a highchair. "
                         },
                         {
-                            "text": "Above is an example of what we would like to see - you will need some table space between your child and the computer, so you might need to push the computer a bit further back than normal."
+                            "text": "Above is an example of what we would like to see."
                         },
                         {
-                            "text": "Don’t worry if you feel your child becoming disinterested in the screen. Even if your child only drums a little bit, we are still collecting valuable data from your child."
+                            "text": "Don’t worry if you feel your child becoming disinterested, we are still collecting valuable data."
                         }
                     ]
                 }
@@ -342,7 +428,7 @@
                     "title": "It's time to get your child & check yourself out!",
                     "listblocks": [
                         {
-                            "text": "Take a few moments to get settled and use the webcam preview to make sure your child’s whole upper body and some table space is in view. Also be sure that it isn’t too dark, and that you are not blocking the view of your child."
+                            "text": "Take a few moments to get settled and use the webcam preview to make sure your child’s full body is in view. Also be sure that it isn’t too dark, and that you are not blocking the view of your child."
                         },
                         {
                             "text": "The green button down below will take you to the beginning of the study. So, press the button when you and your child are in position and ready to go."
@@ -359,11 +445,11 @@
                 "blocks": [
                     {
                         "title": "What was this study about?",
-                        "text": "Young children find moving in time with the beat quite a tricky skill to master! We are interested if this is related their ability to be flexible in their behaviour, and to match their behaviour to the environment around them. From these videos we will measure how your child changed their rhythm in response to the different tempos they saw and heard. And how this differed from their own 'natural rhythm', which we measured in the silent videos.\n\n We will then combine this with information you provide in our questionnaire. This will give us new insights into the cognitive skills that feed into our sense of rhythm."
+                        "text": "The songs your child just heard have been recognised by children above the age of three and adults to be either for dancing along to or as lullabies. We are interested to see if younger children perceive this difference and how that is demonstrated by their movements and expression. From these videos we will measure how your child changed their movements and expression in response to the different songs they heard. \n\n We will then combine this with information you provide in our questionnaire. This will give us new insights infant perception of song."
                     },
                     {
                         "title": "What happens next?",
-                        "text": "Now that your little one has done some brilliant drumming for us, it is your turn to take part! The exit button takes you to our fun survey asking questions about whether your child is able to keep going with a tricky task, or try a new strategy. It involves some interactive games for you to try at home too - can they really wait to eat their favorite food?! \n\n It would be appreciated if you could complete the survey as soon as possible.If you can’t do it all now, you can pause and come back to the survey later. We will shortly send you an email with a link to the survey. We hope you enjoy the final part of the study!"
+                        "text": "Now that your little one has done some brilliant listening for us, it is your turn to take part! The exit button takes you to our survey asking questions about the musical environment of your home. \n\n It would be appreciated if you could complete the survey as soon as possible.If you can’t do it all now, you can pause and come back to the survey later. We will shortly send you an email with a link to the survey. We hope you enjoy the final part of the study!"
                     }
                 ]
             }
@@ -372,6 +458,7 @@
     "sequence": [
         "video-config",
         "video-consent",
+        "intro-video",
         "first-instructions",
         "second-instructions",
         "test-trials",
